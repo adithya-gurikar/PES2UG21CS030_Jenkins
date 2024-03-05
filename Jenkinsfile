@@ -15,7 +15,7 @@ pipeline
 
     stage('Test')
     {
-      steps
+      step
       {
         sh './output'
       }
@@ -24,7 +24,7 @@ pipeline
     {
       steps
       {
-        echo 'deploy
+        echo 'deploy'
       }
     }
   }
