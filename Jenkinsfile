@@ -17,14 +17,14 @@ pipeline
     {
       steps
       {
-        sh './output
+        sh './output'
       }
     }
     stage('Deploy')
     {
       steps
       {
-        echo 'deploy'
+        echo 'deploy';
       }
     }
   }
